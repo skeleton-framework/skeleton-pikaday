@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
   <!-- Basic Page Needs
@@ -24,18 +25,24 @@
   <link rel="stylesheet" href="css/pikaday.css">
 
 </head>
-<body>
 
-  <a href="https://github.com/nathancahill/pikaday-skeleton/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+<body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
-      <div class="twelve columns" style="margin-top: 25%">
-        <h4>Pikaday Skeleton</h4>
-        <p>The refreshing JavaScript Datepicker, styled for Skeleton. <a href="index.html">After fixes</a></p>
+      <div class="twelve columns" style="margin-top: 5%">
+        <h2>Skeleton Pikaday</h2>
+        <p>The refreshing JavaScript Datepicker, styled for Skeleton Framework.</p>
+        <a href="/">
+          <p>Here's the after version.</p>
+        </a>
+      </div>
+      <div class="row">
         <form>
+          <label for="datepicker">Pikaday before Skeleton Pikaday:</label>
+          <br>
           <input type="text" id="datepicker" />
         </form>
       </div>
@@ -44,11 +51,17 @@
 
   <script src="js/pikaday.js"></script>
   <script>
-      var picker = new Pikaday({ field: document.getElementById('datepicker') });
-      picker.show();
+    var picker = new Pikaday({
+      field: document.getElementById('datepicker'),
+      firstDay: 1,
+      minDate: new Date(2010, 0, 1),
+      maxDate: new Date(2020, 12, 31),
+      yearRange: [2010, 2020],
+    });
   </script>
 
-<!-- End Document
+  <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+
 </html>
