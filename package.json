@@ -1,5 +1,5 @@
 {
-  "name": "skeleton-bone-pikaday",
+  "name": "skeleton-pikaday",
   "version": "1.0.0",
   "description": "The refreshing JavaScript Datepicker, styled for Skeleton Framework",
   "dependencies": {
