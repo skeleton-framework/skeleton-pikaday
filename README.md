@@ -1,4 +1,4 @@
-# Pikaday Skeleton
+# Skeleton Pikaday
 [The refreshing JavaScript Datepicker](https://github.com/dbushell/Pikaday), styled for [Skeleton Framework](https://github.com/skeletonframework/skeletonframework). [Demo](http://skeletonframework.github.io/skeleton-pikaday/)
 
 Before and after:
