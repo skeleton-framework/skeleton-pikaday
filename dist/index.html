@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Skeleton Pikaday</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="'//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../bower_components/pikaday/css/pikaday.css">
+  <link rel="stylesheet" href="../bower_components/skeletonframework/dist/skeleton.min.css">
+  <link rel="stylesheet" href="css/skeleton-pikaday.css">
+  <link rel="stylesheet" href="css/skeleton-pikaday-theme.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns" style="margin-top: 5%">
+        <h2>Skeleton Pikaday</h2>
+        <p>The refreshing JavaScript Datepicker, styled for Skeleton Framework.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="one-half column">
+        <p>Pikaday with Skeleton Pikaday</p>
+        <label for="datepicker">Date:</label>
+        <br>
+        <input type="text" id="datepicker" class="u-cf">
+      </div>
+      <div class="one-half column">
+        <p>Pikaday with Skeleton Pikaday Theme</p>
+        <label for="datepicker">Date:</label>
+        <br>
+        <input type="text" id="datepicker-skeleton" class="u-cf">
+      </div>
+    </div>
+  </div>
+  <script src="../bower_components/pikaday/pikaday.js"></script>
+  <script>
+    var pickerDefault = new Pikaday({
+      field: document.getElementById('datepicker'),
+      firstDay: 1,
+      minDate: new Date(2010, 0, 1),
+      maxDate: new Date(2020, 12, 31),
+      yearRange: [2010, 2020],
+    });
+    var pickerSkeleton = new Pikaday({
+      field: document.getElementById('datepicker-skeleton'),
+      firstDay: 1,
+      minDate: new Date(2010, 0, 1),
+      maxDate: new Date(2020, 12, 31),
+      yearRange: [2010, 2020],
+      theme: 'skeleton-theme'
+    });
+  </script>
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>

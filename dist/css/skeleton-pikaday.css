@@ -1,19 +1,21 @@
 /*
 * Created for:
-* Skeleton V2.0.4
-* Pikaday V1.3.2
+* Skeleton Framework V1.0.6
+* Pikaday V1.4.0
 * Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
+* http://skeletonframework.mit-license.org/
 */
 
-/* Override Skeleton styles */
+
+/* Override Skeleton Styles */
 
 .pika-table {
   margin-bottom: 0;
   line-height: inherit;
 }
 
-.pika-table th, .pika-table td {
+.pika-table th,
+.pika-table td {
   border-bottom: 0;
 }
 
@@ -23,7 +25,8 @@
   font-weight: normal;
 }
 
-.pika-prev, .pika-next {
+.pika-prev,
+.pika-next {
   margin-bottom: 0;
 }
 
