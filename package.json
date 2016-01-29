@@ -1,5 +1,5 @@
 {
-  "name": "skeleton-pikaday",
+  "name": "skeleton-cone-pikaday",
   "version": "1.0.0",
   "description": "The refreshing JavaScript Datepicker, styled for Skeleton Framework",
   "dependencies": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gld1982ltd/skeleton-pikaday.git"
+    "url": "git+https://github.com/skeletonframework/skeleton-pikaday.git"
   },
   "keywords": [
     "skeleton-framework",
@@ -24,7 +24,7 @@
   "author": "Gary DeLaney <gld1982ltd@gmail.com> (http://gld1982ltd.xyz)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gld1982ltd/skeleton-pikaday/issues"
+    "url": "https://github.com/skeletonframework/skeleton-pikaday/issues"
   },
-  "homepage": "https://github.com/gld1982ltd/skeleton-pikaday#readme"
+  "homepage": "https://github.com/skeletonframework/skeleton-pikaday#readme"
 }
