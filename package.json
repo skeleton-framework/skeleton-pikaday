@@ -1,6 +1,6 @@
 {
-  "name": "skeleton-cone-pikaday",
-  "version": "1.0.0",
+  "name": "skeleton-bone-pikaday",
+  "version": "1.0.1",
   "description": "The refreshing JavaScript Datepicker, styled for Skeleton Framework",
   "dependencies": {
     "pikaday": "^1.4.0",
