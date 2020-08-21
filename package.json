@@ -4,7 +4,7 @@
   "description": "The refreshing JavaScript Datepicker, styled for Skeleton Framework",
   "dependencies": {
     "pikaday": "^1.4.0",
-    "skeletonframework": "^1.0.5"
+    "skeleton-framework": "^1.0.5"
   },
   "devDependencies": {},
   "scripts": {
