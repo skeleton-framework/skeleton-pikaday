@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skeletonframework/skeleton-pikaday.git"
+    "url": "git+https://github.com/skeleton-framework/skeleton-pikaday.git"
   },
   "keywords": [
     "skeleton-framework",
@@ -21,10 +21,10 @@
     "datepicker",
     "calendar"
   ],
-  "author": "Gary DeLaney <gld1982ltd@gmail.com> (http://gld1982ltd.xyz)",
+  "author": "Gary DeLaney",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/skeletonframework/skeleton-pikaday/issues"
+    "url": "https://github.com/skeleton-framework/skeleton-pikaday/issues"
   },
-  "homepage": "https://github.com/skeletonframework/skeleton-pikaday#readme"
+  "homepage": "https://github.com/skeleton-framework/skeleton-pikaday#readme"
 }
